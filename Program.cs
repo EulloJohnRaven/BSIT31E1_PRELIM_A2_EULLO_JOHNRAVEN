@@ -4,12 +4,16 @@
     string input = Console.ReadLine();
     if (input.ToLower() == "exit")
     {
+        Console.WriteLine("exiting the program");
+        Console.WriteLine("Thank you for using my Calculator");
         break;
     }
     Console.WriteLine("Enter second number");
     string input2 = Console.ReadLine();
     if (input2.ToLower() == "exit")
     {
+        Console.WriteLine("exiting the program");
+        Console.WriteLine("Thank you for using my Calculator");
         break;
     }
     Console.WriteLine("Enter Operator");
@@ -45,5 +49,9 @@
             double total = d1 / d2;
             Console.WriteLine(total);
         }
+    }
+    else
+    {
+        Console.WriteLine("Invalid Selection");
     }
 }
