@@ -16,7 +16,7 @@
         Console.WriteLine("Thank you for using my Calculator");
         break;
     }
-    Console.WriteLine("Enter Operator");
+    Console.WriteLine("Enter Operator (+, -, *, /)");
     string selection = Console.ReadLine();
     int n1 = int.Parse(input);
     int n2 = int.Parse(input2);
